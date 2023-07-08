@@ -311,6 +311,9 @@ body {
   #premier .menu-burger {
     display: none;
   }
+  #premier header #oneLine {
+    width: 20%;
+  }
   #premier header nav {
     display: flex;
   }
