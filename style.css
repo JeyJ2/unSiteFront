@@ -17,9 +17,16 @@ body {
 #premier header {
   height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+}
+#premier header #oneLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #premier header nav {
   display: none;

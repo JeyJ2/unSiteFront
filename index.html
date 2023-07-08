@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Exo-Nesting</title>
+    <title>Nesting-Sass</title>
 </head>
 <body>
     <div id="premier">
-        <header>
-            <h2>Start Bootstrap</h2>
-            <div class="menu-burger">
-                <i class="fa-solid fa-bars"></i>
+        <header id="header">
+            <div id="oneLine">
+                <h2>Nom Entreprise</h2>
+                <div id="burger" class="menu-burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
-            <nav>
+            <nav id="nav">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -25,7 +27,7 @@
             </nav>
         </header>
         <div class="txt">
-            <h1>Present your business in a whole new way</h1>
+            <h1>Bienvenue sur notre site de l'entreprise</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, facere.
                 hbfrifbvjrnerznruf
             </p>
@@ -156,6 +158,6 @@
     <div id="footer">
         @CopyRight : JJ @Doranco
     </div>
-   
+   <script src="script.js"></script>
 </body>
 </html>
